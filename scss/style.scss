@@ -1,0 +1,70 @@
+$c1 : hsl(75, 94%, 57%);
+$c2 : hsl(0, 0%, 100%);
+$c3 : hsl(0, 0%, 20%);
+$c4 : hsl(0, 0%, 12%);
+$c5 : hsl(0, 0%, 8%);
+$f : "Inter", serif;
+
+.profilecard {
+    width: 404px;
+    height: 691px;
+    border-radius: 15px;
+    background-color: $c4;
+    text-align: center;
+    scale: 0.8;
+    img{
+        width: 150px; /* Make it square */
+  height: 150px; /* Make it square */
+  border-radius: 50%; /* Make it circular */
+
+        padding-top: 50px;
+        object-fit: cover;
+        
+    }
+    h1{
+        font-family: $f;
+        font-size: 25px;
+        color: $c2;
+    }
+    h2{
+        font-family: $f;
+        color: $c1;
+        font-size: 16px;
+        
+    }
+    h3{
+        font-family: $f;
+        color: $c2;
+        font-weight: 400;
+    }
+
+    ul{
+        gap: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 321px;
+        
+        
+        
+    }
+   
+    li{
+        height: 39px;
+        width: 332px;
+        background-color: $c3;
+        
+        background-color: $c3;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding-top: 10px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: $c2;
+        font-family: $f;
+        font-weight: 600;
+        
+    }
+}

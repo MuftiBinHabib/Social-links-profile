@@ -1,0 +1,53 @@
+.profilecard {
+  width: 404px;
+  height: 691px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  scale: 0.8;
+}
+.profilecard img {
+  width: 150px; /* Make it square */
+  height: 150px; /* Make it square */
+  border-radius: 50%; /* Make it circular */
+  padding-top: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.profilecard h1 {
+  font-family: "Inter", serif;
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+}
+.profilecard h2 {
+  font-family: "Inter", serif;
+  color: hsl(75, 94%, 57%);
+  font-size: 16px;
+}
+.profilecard h3 {
+  font-family: "Inter", serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+.profilecard ul {
+  gap: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 321px;
+}
+.profilecard li {
+  height: 39px;
+  width: 332px;
+  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 15px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.profilecard a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", serif;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
